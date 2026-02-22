@@ -36,7 +36,7 @@ Gen dianggap signifikan apabila memenuhi kriteria adjusted p-value < 0,05 dan |l
 
   Analisis Gene Ontology dan KEGG dilakukan menggunakan paket clusterProfiler. Simbol gen dikonversi menjadi Entrez ID menggunakan org.Hs.eg.db. Enrichment analysis dilakukan dengan batas signifikansi p-adjust < 0,05.
 
-1. **HASIL DAN INTERPRETASI**
+3. **HASIL DAN INTERPRETASI**
 
 - Volcano Plot
 
@@ -79,6 +79,7 @@ Gen dianggap signifikan apabila memenuhi kriteria adjusted p-value < 0,05 dan |l
 - Visualisasi heatmap terhadap 50 gen paling signifikan menunjukkan pola ekspresi berbeda secara konsisten antara sampel kanker dan normal. Sampel kanker cenderung mengelompok secara terpisah dari sampel normal, yang menandakan bahwa gen-gen signifikan memiliki potensi sebagai biomarker molekuler dalam membedakan kondisi patologis dan normal. 
 - Hasil analisis GO menunjukkan gen yang terekspresi berbeda terlibat dalam proses biologis seperti respons terhadap zat xwnobiotik, metabolisme steroid, respons terhadap hipoksia, regulasi metabolisme molekul kecil, serta proses detoksifikasi. Hal ini mencerminkan adanya perubahan fungsi metabolik dan mekanisme adaptasi sel kanker terhadap lingkungan yang tidak normal. 
 - Analisis KEGG menunjukkan gen yang terekspresi berbea berperan dalam berbagai jalur penting, seperti metabolisme obat oleh sitokrom P450, siklus sel, biosintesis hormon steroid, metabolisme retinol, dan karsinogenesis kimia. Jalur tersebut berhubungan dengan proliferasi sel, metabolisme, dan mekanisme perkembangan kanker kolorektal.
+
 
 
 
