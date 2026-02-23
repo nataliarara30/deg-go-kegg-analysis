@@ -1,5 +1,5 @@
 #Tugas: Analisis Ekspresi Gen Kanker Coloretal (CRC)
-#Dataset: GSE110223 (Paired Design Normal Samples & Colorectal Adenocarcinoma)
+#Dataset: GSE110223 (Paired Design Normal Samples & Colorectal Adenocarcinoma
 #Platform: Microarray (Affymetrix GPL96)
 #Tujuan: Mengidentifikasi Differentially Expressed Genes (DEG)
 
@@ -404,4 +404,5 @@ dotplot(ekegg, showCategory = 15) +
 
 #menyimpan file ke Excel
 write.csv(as.data.frame(ego_bp), "GO_results.csv")
+
 write.csv(as.data.frame(ekegg), "KEGG_results.csv")
